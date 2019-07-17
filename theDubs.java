@@ -19,7 +19,7 @@ public class theDubs {
 		
 		
 		System.out.println("welcome to dubs calculator");
-		System.out.println("enter your nmae");
+		System.out.println("enter your name");
 		name= code.next();
 		System.out.println("whats your favorite color");
 		color= code.next();
@@ -39,7 +39,10 @@ public class theDubs {
 		System.out.println("this is the product "+hi);
 		hi= bye* back;
 		System.out.println(hi);
-		 System.out.println("thanks for your participation " + name);
+		 System.out.println("thanks for your participation " + name + ( "rate the calculator on a scale from 1-5"));
+		 int be1 = 2;
+				 int be11 = code.nextInt();
+		 System.out.println("thank you "+ name + " for rating the calculator a " + be11);
 		code.close();
 		
 		
